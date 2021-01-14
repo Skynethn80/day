@@ -1,5 +1,3 @@
-/* ---- particles.js config ---- */
-
 particlesJS("tuyet", {
   "particles": {
     "number": {
@@ -49,21 +47,21 @@ particlesJS("tuyet", {
     },
     "line_linked": {
       "enable": false,
-      "distance": 150,
+      "distance": 0,
       "color": "#ffffff",
       "opacity": 0.4,
-      "width": 1
+      "width": 0
     },
     "move": {
       "enable": true,
-      "speed": 6,
+      "speed": 5,
       "direction": "bottom",
       "random": true,
       "straight": false,
       "out_mode": "out",
       "bounce": false,
       "attract": {
-        "enable": false,
+        "enable": true,
         "rotateX": 600,
         "rotateY": 1200
       }
@@ -86,7 +84,7 @@ particlesJS("tuyet", {
       "grab": {
         "distance": 140,
         "line_linked": {
-          "opacity": 1
+          "opacity": 4
         }
       },
       "bubble": {
